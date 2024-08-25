@@ -9,17 +9,17 @@
 
 // Solution:
 
-// var inp=[4,8,9];
-// var inp1=[3,7,10];
+var inp=[4,8,9];
+var inp1=[3,7,10];
 
-// var sorted=inp.concat(inp1);
-// console.log(sorted);
+var sorted=inp.concat(inp1);
+console.log(sorted);
 
-// sorted.sort((a,b)=>{
-//     return a-b;
+sorted.sort((a,b)=>{
+    return a-b;
     
-// })
-// console.log("sorted array is",sorted)
+})
+console.log("sorted array is",sorted)
 
 
 
@@ -46,7 +46,7 @@
 // ■ Output: 3, nums = [1, 2, 3]
 // Solution:
 
-// var inp=[3,3,4,5,5]
+// var inp=[3,3,4,5,5,3]
 
 // function duplicateremover(inp){
 //     for(var i=0; i<=inp.length-1;i++){
